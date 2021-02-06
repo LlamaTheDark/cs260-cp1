@@ -35,9 +35,6 @@ body {
 
 /* NEWS PAGE */
 
-#news-preface {
-    padding-top: 40px;
-}
 
 .page-title {
     text-align: center;
@@ -70,6 +67,8 @@ body {
 .icon.link.instagram:hover {
     text-decoration: none;
 }
+
+
 
 
 /* NAVBAR */
@@ -211,6 +210,11 @@ body {
 
     /* ------ */
 
+    /* GALLERY */
+
+
+    /* ------- */
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -237,7 +241,7 @@ body {
 
     /* PAGE */
     .page {
-        width: 95%;
+        width: 80%;
         margin: 0 auto;
     }
 
@@ -259,6 +263,23 @@ body {
         text-align: center;
         font-weight: bold;
     }
+
+    /* MUSIC PAGE */
+
+    .music-embeds {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .embed {
+        flex: 1;
+        margin: 60px;
+
+        border-radius: 5px;
+        border:2px solid rgb(214, 214, 214);
+    }
+
+    /* ---------- */
 
     /* ABOUT SECTION */
     .sub-heading p {
@@ -365,6 +386,24 @@ body {
     }
 
     /* ------ */
+
+    /* GALLERY */
+    
+    .gallery {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .gallery.row {
+        margin-bottom: 0;
+    }
+    .gallery-image img {
+        border-radius: 5px;
+        margin: 10px;
+    }
+
+    /* ------- */
 
 }
 
