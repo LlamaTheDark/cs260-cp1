@@ -12,10 +12,6 @@
         </title>
     </head>
     <body>
-        <!-- FACEBOOK EMBED JAVASCRIPT -->
-        <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="JQmRy4nj"></script>
-        <!------------------------------->
 
         <div class='header'>
             <nav class='navbar fixed-top navbar-expand-lg navbar-dark bg-dark'>
@@ -56,13 +52,24 @@
                 <h2 class='page-title'>
                     Music
                 </h2>
+                <h4>
+                    Recent Releases
+                </h4>
+                <div class='music-embeds'>
+                    <div class='embed idly-embed'>
+                        <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/i-dont-like-you-single/1540475787"></iframe>
+                    </div>
+                    <div class='embed midnight-hour-embed'>
+                        <iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/midnight-hour/1413797129"></iframe>
+                    </div>
+                </div>
             </div>
             <div class='separator'></div>
 
-            <div class='separator'></div>
-
-            <div class='sub-heading music'>
-                <h4>Listen Now</h4>
+            <div class='sub-heading music-links'>
+                <h4>
+                    See All Music
+                </h4>
                 <div class='music icons'>
                     <a class='icon link apple-music' href='https://music.apple.com/us/artist/finn-morrison/1368928192'>
                         <img class='icon' src='/img/am-icon.png'/>
@@ -73,15 +80,22 @@
                     <a class='icon link youtube' href='https://www.youtube.com/channel/UCp-cumFNUlet8IrTQOaz-XQ'>
                         <img class='icon' src='/img/yt-icon.png'/>
                     </a>
+                    <a class='icon link amazon' href='https://www.amazon.com/dp/B07BVJW2L3/ref=dm_ws_ps_adp'>
+                        <img class='icon' src='/img/amazon-icon.png'/>
+                    </a>
+                    <a class='icon link tidal' href='https://tidal.com/browse/artist/9707026'>
+                        <img class='icon' id='tidal-icon' src='/img/tidal-icon.png'/>
+                    </a>
+                    <a class='icon link deezer' href='https://www.deezer.com/us/artist/14469429'>
+                        <img class='icon' src='/img/deezer-icon.png'/>
+                    </a>
+                    <a class='icon link napster' href='https://us.napster.com/artist/finn-morrison'>
+                        <img class='icon' src='/img/napster-icon.png'/>
+                    </a>
+                    <a class='icon link ihr' href='https://www.iheart.com/artist/finn-morrison-32078840/'>
+                        <img class='icon' id='ihr-icon' src='/img/ihr-icon.png'/>
+                    </a>
                 </div>
-            </div>
-            <div class='separator'></div>
-
-            <div class='sub-heading instagram-feed'>
-                <a class='icon link instagram' href='https://www.instagram.com/finnmorrisonmusic/'>
-                    <img class='icon instagram ' src='/img/instagram-icon-alt.png'/>
-                    finnmorrisonmusic
-                </a>
             </div>
             <!-- <div class='separator'></div>
 

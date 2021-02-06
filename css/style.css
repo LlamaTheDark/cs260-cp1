@@ -26,6 +26,13 @@ body {
     border-radius: 15px;
 }
 
+#tidal-icon {
+    border-radius: 5px;
+}
+#ihr-icon {
+    border-radius: 5px;
+}
+
 /* NEWS PAGE */
 
 #news-preface {
@@ -99,6 +106,9 @@ body {
         background-color: black;
     }
 
+    .sub-heading {
+        margin-bottom: 20px;
+    }
 
     .sub-heading h4 {
         margin: 10px;
@@ -114,15 +124,23 @@ body {
 
     /* LISTEN NOW SECTION */
 
+    .embed {
+        border-radius: 5px;
+        border:2px solid rgb(214, 214, 214);
+        margin: 5px;
+    }
+
     .music.icons {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+
+        flex-wrap: wrap;
     }
     .icon.link {
         /* border: 1px solid blue; */
         text-align: center;
         margin: 10px 10px;
-        width: 10%;
+        width: 15%;
     }
     .icon{
         width: 100%;
