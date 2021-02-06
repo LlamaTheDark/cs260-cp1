@@ -7,13 +7,67 @@
 /* NAVBAR */
 @media only screen and (max-width: 812px) {
     body {
-        padding-top: 125px;
+        padding-top: 72px;
+    }
+
+    .title-image {
+        width: 100%;
+        
+        border: 1px solid red;
+    }
+    .title-image img {
+        width: 100%;
+    }
+
+    /* PAGE */
+    .page {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .separator {
+        margin: 5px 40px;
+        width: 80%;
+
+        padding-top: 1px;
+        background-color: black;
+    }
+
+    .sub-heading h4 {
+        margin: 10px;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .music.icons {
+        display: flex;
+        justify-content: space-around;
+    }
+    .icon.link {
+        border: 1px solid blue;
+        text-align: center;
+        width: 10%;
+    }
+    .icon{
+        width: 100%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        padding-top: 128px;
     }
 }
 
+
+
 @media only screen and (min-width:813px) {
     body {
-        padding-top: 70px;
+        padding-top: 72px;
     }
 }
 
