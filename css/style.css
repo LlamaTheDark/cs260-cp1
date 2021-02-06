@@ -48,10 +48,12 @@ body {
 
 /* FOOTER */
 .foot.link.github {
+    padding: 2px 8px;
     color: white;
 }
 .foot.link.github:hover {
     color: white;
+    background-color: #3f4d5c;
 }
 
 #record {
@@ -212,6 +214,19 @@ body {
 
     /* GALLERY */
 
+    .gallery {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .gallery.row {
+        margin-bottom: 0;
+    }
+    .gallery-image img {
+        border-radius: 5px;
+        margin: 10px;
+    }
 
     /* ------- */
 
@@ -228,6 +243,10 @@ body {
 @media only screen and (min-width:813px) {
     body {
         padding-top: 72px;
+    }
+
+    .nav-link:hover {
+        background-color: #3f4d5c;
     }
 
     .title-image {
@@ -405,8 +424,4 @@ body {
 
     /* ------- */
 
-}
-
-.navbar-text {
-    /* border: 1px solid red !important; */
 }
