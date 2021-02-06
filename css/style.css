@@ -2,7 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family:'Times New Roman', Times, serif;
 }
+
+.navbar-brand {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+.foot.link.github {
+    color: white;
+}
+.foot.link.github:hover {
+    color: white;
+}
+
+#record {
+    color: white;
+}
+/* ------ */
+
+.icon.link.instagram {
+    color: black;
+    padding: 10px;
+}
+
+.icon.link.instagram:hover {
+    text-decoration: none;
+}
+
 
 /* NAVBAR */
 @media only screen and (max-width: 812px) {
@@ -13,7 +42,7 @@
     .title-image {
         width: 100%;
         
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     .title-image img {
         width: 100%;
@@ -33,12 +62,20 @@
         background-color: black;
     }
 
+
     .sub-heading h4 {
         margin: 10px;
         font-size: 18px;
         text-align: center;
         font-weight: bold;
     }
+
+    /* ABOUT SECTION */
+    .sub-heading.about p {
+        text-align: center;
+    }
+
+    /* LISTEN NOW SECTION */
 
     .music.icons {
         display: flex;
@@ -54,7 +91,66 @@
         width: 100%;
     }
 
+    /* ---------------- */
 
+    /* NEWS SECTION */
+    .news-item {
+        text-align: center;
+        margin: 15px 0 auto;
+        padding-bottom: 10px;
+
+        /* border: 1px solid red; */
+    }
+
+    .news-item img {
+        /* border: 1px solid orange; */
+        /* margin: 15px 35px; */
+        width: 80%;
+    }
+
+    .news-item h5 {
+        margin-top: 8px;
+        font-size: 15px;
+        text-decoration: underline;
+    }
+
+    .fb-video {
+        margin: 10px;
+    }
+
+    /* -------------- */
+
+    /* INSTAGRAM LINK */
+    .sub-heading.instagram-feed {
+        text-align: center;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .icon.instagram {
+        width: 10%;
+    }
+
+    /* -------------- */
+
+    /* FOOTER */
+
+    .footer {
+        background-color: #343a40;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .foot {
+        margin: 15px;
+    }
+
+    #record {
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    /* ------ */
 
 }
 

@@ -12,6 +12,11 @@
         </title>
     </head>
     <body>
+        <!-- FACEBOOK EMBED JAVASCRIPT -->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="JQmRy4nj"></script>
+        <!------------------------------->
+
         <div class='header'>
             <nav class='navbar fixed-top navbar-expand-lg navbar-dark bg-dark'>
                 <div class='container-fluid'>
@@ -52,11 +57,21 @@
         <div class='page'>
             <div class='sub-heading about'>
                 <h4>About</h4>
+                <p>I am a student in college and I write, compose, play, and record all my own music.</p>
             </div>
             <div class='separator'></div>
 
             <div class='sub-heading news'>
                 <h4>Latest News</h4>
+                <div class='news-item'>
+                    <h5>Album - 'Midnight Hour' Released</h5>
+                    <img src='/img/midnight-hour-cover.jpg'/>
+                </div> 
+                
+                <div class='news-item'>
+                    <h5>Debut Single - 'Ghost Girl' Released</h5>
+                    <div class="fb-video" data-href="https://fb.watch/3uHhhTejHZ/" data-width="300" data-show-text="false"><blockquote cite="https://developers.facebook.com/CNNPhilippines/videos/2202572703315950/" class="fb-xfbml-parse-ignore"><a href="https://developers.facebook.com/CNNPhilippines/videos/2202572703315950/">Finn Morrison talks about debut single &#039;Ghost Girl&#039;</a><p>Teen composer Finn Morrison releases his debut single &#039;Ghost Girl,&#039; which is now on Spotify and iTunes | www.cnn.ph #CNNPHNewDay</p>Posted by <a href="https://www.facebook.com/CNNPhilippines/">CNN Philippines</a> on Tuesday, May 15, 2018</blockquote></div>
+                </div> 
             </div>
             <div class='separator'></div>
 
@@ -77,26 +92,25 @@
             <div class='separator'></div>
 
             <div class='sub-heading instagram-feed'>
-                <div class='icon instagram'>
-                    @finnmorrionmusic
-                </div>
+                <a class='icon link instagram' href='https://www.instagram.com/finnmorrisonmusic/'>
+                    <img class='icon instagram ' src='/img/instagram-icon.png'/>
+                    @finnmorrisonmusic
+                </a>
             </div>
-            <div class='separator'></div>
+            <!-- <div class='separator'></div>
 
             <div class='sub-heading newsletter'>
                 <h4>Newsletter</h4>
-            </div>
+
+            </div> -->
         </div>
         </div>
         <div class='footer'>
-            <div class='link github'>
-
-            </div>
-            <div class='small text'>
-
-            </div>
-            <div class='distrokid'>
-
+            <a class='foot link github' href='https://github.com/LlamaTheDark/cs260-cp1'>
+                Repo on GitHub
+            </a>
+            <div class='foot' id='record'>
+                &#169;2021 One Seamus Records
             </div>
         </div>
 
